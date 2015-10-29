@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D801FA331BCEB70B0044BB32 /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = D801FA321BCEB70B0044BB32 /* geography-class_medres.mbtiles */; };
+		D801FA391BCEC5A30044BB32 /* country_json_50m in Resources */ = {isa = PBXBuildFile; fileRef = D801FA381BCEC5A30044BB32 /* country_json_50m */; };
+		D801FA3B1BCECEC90044BB32 /* marker-stroked-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D801FA3A1BCECEC90044BB32 /* marker-stroked-24@2x.png */; };
+		D801FA681BCEF22D0044BB32 /* CartoDBLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D801FA661BCEF22D0044BB32 /* CartoDBLayer.swift */; };
+		D801FA691BCEF22D0044BB32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D801FA671BCEF22D0044BB32 /* ViewController.swift */; };
+		D8341A6D1BE2A61100411A46 /* mapzen_vectors in Resources */ = {isa = PBXBuildFile; fileRef = D8341A6C1BE2A61100411A46 /* mapzen_vectors */; };
 		D8F37A591BCDA6300040D6BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37A581BCDA6300040D6BD /* AppDelegate.swift */; };
-		D8F37A5B1BCDA6300040D6BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37A5A1BCDA6300040D6BD /* ViewController.swift */; };
 		D8F37A5E1BCDA6300040D6BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F37A5C1BCDA6300040D6BD /* Main.storyboard */; };
 		D8F37A601BCDA6300040D6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F37A5F1BCDA6300040D6BD /* Assets.xcassets */; };
 		D8F37A631BCDA6300040D6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F37A611BCDA6300040D6BD /* LaunchScreen.storyboard */; };
 		D8F37A6E1BCDA6310040D6BD /* HelloEarthSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37A6D1BCDA6310040D6BD /* HelloEarthSwiftTests.swift */; };
 		D8F37A791BCDA6310040D6BD /* HelloEarthSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F37A781BCDA6310040D6BD /* HelloEarthSwiftUITests.swift */; };
+		D8F37A8D1BCDB18B0040D6BD /* libWhirlyGlobe-MaplyComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F37A8C1BCDB17D0040D6BD /* libWhirlyGlobe-MaplyComponent.a */; };
+		D8F37A8F1BCDB1A70040D6BD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F37A8E1BCDB1A70040D6BD /* CoreLocation.framework */; };
+		D8F37A911BCDB2060040D6BD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F37A901BCDB2060040D6BD /* libc++.tbd */; };
+		D8F37A931BCDB2130040D6BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F37A921BCDB2130040D6BD /* libz.tbd */; };
+		D8F37A951BCDB2200040D6BD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F37A941BCDB2200040D6BD /* libxml2.tbd */; };
+		D8F37A971BCDB22E0040D6BD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F37A961BCDB22E0040D6BD /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +42,25 @@
 			remoteGlobalIDString = D8F37A541BCDA6300040D6BD;
 			remoteInfo = HelloEarthSwift;
 		};
+		D8F37A8B1BCDB17D0040D6BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F37A861BCDB17D0040D6BD /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B11E0DB15B4C030007AAE3F;
+			remoteInfo = "WhirlyGlobe-MaplyComponent";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D801FA321BCEB70B0044BB32 /* geography-class_medres.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = "geography-class_medres.mbtiles"; path = "libs/WhirlyGlobeMaply/resources/base_maps/geography-class_medres.mbtiles"; sourceTree = SOURCE_ROOT; };
+		D801FA381BCEC5A30044BB32 /* country_json_50m */ = {isa = PBXFileReference; lastKnownFileType = folder; name = country_json_50m; path = libs/WhirlyGlobeMaply/resources/vectors/country_json_50m; sourceTree = SOURCE_ROOT; };
+		D801FA3A1BCECEC90044BB32 /* marker-stroked-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marker-stroked-24@2x.png"; path = "libs/WhirlyGlobeMaply/resources/maki icons/marker-stroked-24@2x.png"; sourceTree = SOURCE_ROOT; };
+		D801FA661BCEF22D0044BB32 /* CartoDBLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartoDBLayer.swift; sourceTree = "<group>"; };
+		D801FA671BCEF22D0044BB32 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8341A6B1BE2A43D00411A46 /* BridgeClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeClass.h; sourceTree = "<group>"; };
+		D8341A6C1BE2A61100411A46 /* mapzen_vectors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mapzen_vectors; path = libs/WhirlyGlobeMaply/resources/mapzen_vectors; sourceTree = SOURCE_ROOT; };
 		D8F37A551BCDA6300040D6BD /* HelloEarthSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloEarthSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F37A581BCDA6300040D6BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8F37A5A1BCDA6300040D6BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8F37A5D1BCDA6300040D6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8F37A5F1BCDA6300040D6BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F37A621BCDA6300040D6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +71,12 @@
 		D8F37A741BCDA6310040D6BD /* HelloEarthSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloEarthSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F37A781BCDA6310040D6BD /* HelloEarthSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloEarthSwiftUITests.swift; sourceTree = "<group>"; };
 		D8F37A7A1BCDA6310040D6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F37A861BCDB17D0040D6BD /* WhirlyGlobe-MaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "WhirlyGlobe-MaplyComponent.xcodeproj"; path = "libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent.xcodeproj"; sourceTree = "<group>"; };
+		D8F37A8E1BCDB1A70040D6BD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8F37A901BCDB2060040D6BD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D8F37A921BCDB2130040D6BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D8F37A941BCDB2200040D6BD /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		D8F37A961BCDB22E0040D6BD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F37A971BCDB22E0040D6BD /* libsqlite3.tbd in Frameworks */,
+				D8F37A951BCDB2200040D6BD /* libxml2.tbd in Frameworks */,
+				D8F37A931BCDB2130040D6BD /* libz.tbd in Frameworks */,
+				D8F37A911BCDB2060040D6BD /* libc++.tbd in Frameworks */,
+				D8F37A8F1BCDB1A70040D6BD /* CoreLocation.framework in Frameworks */,
+				D8F37A8D1BCDB18B0040D6BD /* libWhirlyGlobe-MaplyComponent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +110,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D801FA301BCEB6F30044BB32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8341A6C1BE2A61100411A46 /* mapzen_vectors */,
+				D801FA3A1BCECEC90044BB32 /* marker-stroked-24@2x.png */,
+				D801FA381BCEC5A30044BB32 /* country_json_50m */,
+				D801FA321BCEB70B0044BB32 /* geography-class_medres.mbtiles */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		D8F37A4C1BCDA6300040D6BD = {
 			isa = PBXGroup;
 			children = (
+				D8F37A961BCDB22E0040D6BD /* libsqlite3.tbd */,
+				D8F37A941BCDB2200040D6BD /* libxml2.tbd */,
+				D8F37A921BCDB2130040D6BD /* libz.tbd */,
+				D8F37A901BCDB2060040D6BD /* libc++.tbd */,
+				D8F37A8E1BCDB1A70040D6BD /* CoreLocation.framework */,
+				D8F37A861BCDB17D0040D6BD /* WhirlyGlobe-MaplyComponent.xcodeproj */,
 				D8F37A571BCDA6300040D6BD /* HelloEarthSwift */,
 				D8F37A6C1BCDA6310040D6BD /* HelloEarthSwiftTests */,
 				D8F37A771BCDA6310040D6BD /* HelloEarthSwiftUITests */,
@@ -97,12 +150,15 @@
 		D8F37A571BCDA6300040D6BD /* HelloEarthSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D801FA661BCEF22D0044BB32 /* CartoDBLayer.swift */,
+				D801FA671BCEF22D0044BB32 /* ViewController.swift */,
+				D801FA301BCEB6F30044BB32 /* Resources */,
 				D8F37A581BCDA6300040D6BD /* AppDelegate.swift */,
-				D8F37A5A1BCDA6300040D6BD /* ViewController.swift */,
 				D8F37A5C1BCDA6300040D6BD /* Main.storyboard */,
 				D8F37A5F1BCDA6300040D6BD /* Assets.xcassets */,
 				D8F37A611BCDA6300040D6BD /* LaunchScreen.storyboard */,
 				D8F37A641BCDA6310040D6BD /* Info.plist */,
+				D8341A6B1BE2A43D00411A46 /* BridgeClass.h */,
 			);
 			path = HelloEarthSwift;
 			sourceTree = "<group>";
@@ -123,6 +179,14 @@
 				D8F37A7A1BCDA6310040D6BD /* Info.plist */,
 			);
 			path = HelloEarthSwiftUITests;
+			sourceTree = "<group>";
+		};
+		D8F37A871BCDB17D0040D6BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F37A8C1BCDB17D0040D6BD /* libWhirlyGlobe-MaplyComponent.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +278,12 @@
 			mainGroup = D8F37A4C1BCDA6300040D6BD;
 			productRefGroup = D8F37A561BCDA6300040D6BD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D8F37A871BCDB17D0040D6BD /* Products */;
+					ProjectRef = D8F37A861BCDB17D0040D6BD /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D8F37A541BCDA6300040D6BD /* HelloEarthSwift */,
@@ -223,14 +293,28 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		D8F37A8C1BCDB17D0040D6BD /* libWhirlyGlobe-MaplyComponent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libWhirlyGlobe-MaplyComponent.a";
+			remoteRef = D8F37A8B1BCDB17D0040D6BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D8F37A531BCDA6300040D6BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D801FA331BCEB70B0044BB32 /* geography-class_medres.mbtiles in Resources */,
+				D801FA391BCEC5A30044BB32 /* country_json_50m in Resources */,
 				D8F37A631BCDA6300040D6BD /* LaunchScreen.storyboard in Resources */,
+				D801FA3B1BCECEC90044BB32 /* marker-stroked-24@2x.png in Resources */,
 				D8F37A601BCDA6300040D6BD /* Assets.xcassets in Resources */,
 				D8F37A5E1BCDA6300040D6BD /* Main.storyboard in Resources */,
+				D8341A6D1BE2A61100411A46 /* mapzen_vectors in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +339,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F37A5B1BCDA6300040D6BD /* ViewController.swift in Sources */,
+				D801FA691BCEF22D0044BB32 /* ViewController.swift in Sources */,
 				D8F37A591BCDA6300040D6BD /* AppDelegate.swift in Sources */,
+				D801FA681BCEF22D0044BB32 /* CartoDBLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,10 +432,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloEarthSwift/BridgeClass.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,9 +473,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloEarthSwift/BridgeClass.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -398,10 +487,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/**";
 				INFOPLIST_FILE = HelloEarthSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dmartinw.HelloEarthSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloEarthSwift/BridgeClass.h";
 			};
 			name = Debug;
 		};
@@ -409,10 +500,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/**";
 				INFOPLIST_FILE = HelloEarthSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dmartinw.HelloEarthSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloEarthSwift/BridgeClass.h";
 			};
 			name = Release;
 		};
@@ -483,6 +576,7 @@
 				D8F37A7F1BCDA6310040D6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8F37A801BCDA6310040D6BD /* Build configuration list for PBXNativeTarget "HelloEarthSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +585,7 @@
 				D8F37A821BCDA6310040D6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8F37A831BCDA6310040D6BD /* Build configuration list for PBXNativeTarget "HelloEarthSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +594,7 @@
 				D8F37A851BCDA6310040D6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
